@@ -50,10 +50,19 @@ i{
   border-bottom: 1px solid #E5E5E5;
 }
 
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 360px;
+}
+
 .hero{
   background: #E2F2FF;
   border-radius: 10px;
   padding: 20px 10px;
+  margin: 10px 0 40px 0;
 }
 
 .hero__title{
@@ -108,13 +117,20 @@ i{
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 20px;
+  gap: 20px 10px;
 }
 
 .hero__item{
   
 }
 
+.hero__img{
+  
+}
 
+.hero__img-main{
+  margin: 0 auto;
+}
 
 .card{
   padding: 15px;

@@ -1,0 +1,23 @@
+[
+    {
+        "text": "+380",
+        "value": 0,
+        "selected": true,
+        "description": "Ukraine",
+        "imageSrc": "../src/images/Flag.svg"
+    },
+    {
+        "text": "+351",
+        "value": 1,
+        "selected": false,
+        "description": "Portugal",
+        "imageSrc": "../src/images/portugal.svg"
+    },
+    {
+        "text": "+126",
+        "value": 2,
+        "selected": false,
+        "description": "Unitet Kingdom",
+        "imageSrc": "../src/images/united-kingdom.svg"
+    }
+]

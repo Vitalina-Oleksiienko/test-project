@@ -83,14 +83,17 @@
                             </div>
                             <div class="col-md-3">
                                 <label for="validationCustom04" class="form-label">Lable</label>
-                                <div class="dropdown">
-                                    <select class="form-select" id="validationCustom04" required>
-                                    <option selected style="background-image: url(../src/images/Flag.svg);">+380</option>
-                                    <option style="background-image: url(../src/images/Flag.svg);" value="1">+126</option>
-                                    <option style="background-image: url(../src/images/Flag.svg);" value="2">+351</option>
-                                </select>
-                                <input type="phone" class="form-control" id="validationCustom04" placeholder="XX XXX XXXX" required>
+
+                                <div class="input-group mb-3">
+                                    <button type="text"  class="btn btn-outline-secondary dropdown-toggle drop" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="../src/images/Flag.svg" alt="">+380</a></button>
+                                    <ul class=" drop">
+                                        <li class="dropdown-item"><img src="../src/images/Flag.svg" alt="">+380</li>
+                                        <li class=""><img src="../src/images/united-kingdom.svg" alt="">+126</li>
+                                        <li class="dropdown-item"><img src="../src/images/portugal.svg" alt="">+351</li>
+                                    </ul>
+                                    <input type="text" class="form-control" aria-label="Ввод текста с помощью раскрывающейся кнопки">
                                 </div>
+
                             </div>
                             <div class="col-12">
                                 <div class="form-check">

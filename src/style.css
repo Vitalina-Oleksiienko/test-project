@@ -908,25 +908,3 @@ ul li{
   }
 }
 
-
-
-ul.drop {
-  display:none;
-  list-style-type: none;
-  padding-left: 0;
-  border: 1px solid #ddd;
-  margin-top: 0;
-  width:210px;
-}
-
-li {
-  margin: 2px;
-}
-
-li:hover {
-  background: yellow;
-}
-
-ul.drop.visible {
-  display:block;
-}

@@ -1,22 +1,25 @@
-const dropInput = document.querySelector('button.drop');
-const dropList = document.querySelector('ul.drop');
-dropInput.addEventListener('focus', show, false);
-dropInput.addEventListener('blur', hide, false);
-dropList.addEventListener('click', dropSelect, false);
+$(function() {
+  // Set
+  var main = $('div.mm-dropdown .textfirst')
+  var li = $('div.mm-dropdown > ul > li.input-option')
+  var inputoption = $("div.mm-dropdown .option")
+  var default_text = '<img src="../src/images/Flag.svg" width="17" height="6"  alt=""><div class="input-option-txt ">+380</div><img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-down-b-128.png" width="10" height="10" class="down" />';
 
-function hide(){
-  setTimeout(() =>
-    dropList.classList.remove('visible'),
-  300);
-}
-function show(){
-  setTimeout(() =>
-    dropList.classList.add('visible'),
-  300);  
-}
+  // Animation
+  main.click(function() {
+    main.html(default_text);
+    li.toggle('fast');
+  });
 
-function dropSelect(e) {
-  dropInput.value = e.target.textContent
-  hide();
-}
+  // Insert Data
+  li.click(function() {
+    // hide
+    li.toggle('fast');
+    var livalue = $(this).data('value');
+    var lihtml = $(this).html();
+    main.html(lihtml);
+    inputoption.val(livalue);
+  });
+});
+
 

@@ -172,8 +172,8 @@ ul li{
   position: absolute;
   width: 117.74px;
   height: 93.24px;
-  left: 0;
-  top: 27px;
+  left: 22px;
+  top: -7px;
   background: rgba(241, 247, 255, 0.9);
   box-shadow: 0px 3.59414px 17.9707px rgba(0, 0, 0, 0.08);
   border-radius: 5.56736px;
@@ -183,15 +183,15 @@ ul li{
 }
 
 .hero__img-first{
-  max-width: 37%;
   position: absolute;
-  top: -20px;
+  top: 0;
   left: 0;
+  transform: rotate(2deg);
 }
 
 .hero__border-second{
   position: absolute;
-  top: 45px;
+  top: 50px;
   right: 20px;
   width: 101.49px;
   height: 54.74px;
@@ -215,8 +215,8 @@ ul li{
   position: absolute;
   width: 102.19px;
   height: 55.46px;
-  bottom: 131px;
-  left: -19px;
+  bottom: 25px;
+  left: 21px;
   background: rgba(241, 247, 255, 0.9);
   box-shadow: 0px 3.04798px 15.2399px rgba(0, 0, 0, 0.12);
   border-radius: 3.8638px;
@@ -226,10 +226,10 @@ ul li{
 }
 
 .hero__img-third{
-  max-width: 32%;
   position: absolute;
-  bottom: 0;
+  bottom: -4px;
   left: 0;
+  transform: rotate(6deg);
 }
 
 @keyframes example {
@@ -867,8 +867,11 @@ ul li{
     display: none;
   }
   
+  .popup {
+    top: -34px;
+  }
   .popup__main-content{
-    padding: 10px 32px 5px 32px;
+    padding: 0 32px;
   }
   .popup__img{
     display: block;
@@ -902,7 +905,7 @@ ul li{
     text-align: center;
     letter-spacing: 0.02em;
     margin-bottom: 24px;
-    margin-top: -19px;
+    margin-top: -8px;
   }
 
   .popup__txt {
@@ -910,7 +913,7 @@ ul li{
     line-height: 150%;
     text-align: center;
     letter-spacing: 0.0025em;
-    margin-bottom: 24px;
+    margin-bottom: 25px;
   }
 
   .form-label{
@@ -935,14 +938,25 @@ ul li{
     letter-spacing: 0.0025em;
   }
 
+  .col-md-4 .form-control{
+    border-radius: 8px;
+  }
+
+  .col-md-4 .form-control::placeholder {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.0025em;
+  }
+
   .col-12{
-    margin-top: 24px;
+    margin-top: 30px;
     margin-bottom: 0;
     gap: 10px;
     justify-content: center;
   }
 
   .col-12 .btn {
+    width: 100%;
     font-size: 16px;
     line-height: 1.13;
   }

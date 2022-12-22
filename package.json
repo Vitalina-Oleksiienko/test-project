@@ -1,23 +1,23 @@
 {
-  "name": "test-project",
+  "name": "test-project-1",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Vitalina-Oleksiienko.github.io/test-project",
+  "homepage": "https://Vitalina-Oleksiienko.github.io/test-project-1",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /test-project/",
+    "build": "parcel build src/*.html --public-url /test-project-1/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vitalina-Oleksiienko/test-project.git"
+    "url": "git+https://github.com/Vitalina-Oleksiienko/test-project-1.git"
   },
   "keywords": [],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vitalina-Oleksiienko/test-project/issues"
+    "url": "https://github.com/Vitalina-Oleksiienko/test-project-1/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
